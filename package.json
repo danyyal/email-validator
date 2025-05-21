@@ -1,0 +1,43 @@
+{
+  "name": "email-validator",
+  "version": "2.0.4",
+  "author": "Danyyal Ali <danyyal.ali.31@gmail.com>",
+  "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
+  "main": "index",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "typings": "index.d.ts",
+  "engines": {
+    "node": ">4.0"
+  },
+  "license": "Unlicense",
+  "keywords": [
+    "email",
+    "validation",
+    "validator",
+    "syntax"
+  ],
+  "homepage": "http://github.com/danyyal/email-validator",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/danyyal/email-validator/raw/master/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Danyyal Ali",
+      "email": "danyyal.ali.31@gmail.com",
+      "url": "https://github.com/danyyal"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/danyyal/email-validator.git"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
+  }
+}
